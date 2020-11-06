@@ -38,16 +38,16 @@
 //===========================================================================
 // Creality Ender 5/5 Pro Options - with V4.2.2 Board
 //===========================================================================
-//#define ENDER5_V422_BOARD`
+#define ENDER5_V422_BOARD
 
 // If your V4.2.2 board has TMC2208 (silent) drivers on it uncomment the below line
-//#define V422_TMC2208_BOARD
+#define V422_TMC2208_BOARD
 
 // If you have the new Ender 5/5 Pro Model that has the new 800steps/mm Z leadscrew uncomment the below option to set the correct steps/mm
-//#define ENDER5_NEW_LEADSCREW
+#define ENDER5_NEW_LEADSCREW
 
 // EZABL Probe Mounts
-//#define ENDER5_OEM
+#define ENDER5_OEM
 //#define CUSTOM_PROBE
 
 //===========================================================================
@@ -60,7 +60,7 @@
 
 // If you want more or less EZABL probe points change the number below (only used if EZABL enabled)
 // Default is 3 which gives you 3x3 grid for a total of 9 points. STICK WITH ODD NUMBERS
-#define EZABL_POINTS 3
+#define EZABL_POINTS 5
 
 // If you want to change how far in or out the probe senses change EZABL_PROBE_EDGE value below
 // Most Machines - 35
@@ -172,8 +172,8 @@
 //#define FAN_FIX
 
 // Use your own printer name - Uncomment both lines
-//#define CUSTOM_PRINTER_NAME
-//#define USER_PRINTER_NAME "CHANGE ME"
+#define CUSTOM_PRINTER_NAME
+#define USER_PRINTER_NAME "F Printer 5"
 
 // If your printer is homing to the endstops hard uncomment this to change the homing speed/divisor to make it less aggressive.
 //#define SLOWER_HOMING
@@ -200,9 +200,9 @@
 // BL TOUCH ----------------------------------------
 // If you want to use the BL-Touch uncomment the 2 lines below and refer to the V42X BLTouch Picture in the Marlin Folder for wiring.
 // Video guide from Teaching Tech: https://youtu.be/neS7lB7fCww?t=790
-//#define BLTOUCH
+#define BLTOUCH
 // Here is where you set your servo pin. For V4.2.X Boards use PB0
-//#define SERVO0_PIN PB0
+#define SERVO0_PIN PB0
 
 //===========================================================================
 // **********************  END CONFIGURATION SETTINGS   *********************
